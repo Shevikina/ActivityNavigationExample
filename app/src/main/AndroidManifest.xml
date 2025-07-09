@@ -13,6 +13,11 @@
         android:theme="@style/Theme.ActivityNavigationExample"
         tools:targetApi="31">
         <activity
+            android:name=".ActivityA"
+            android:exported="false"
+            android:label="@string/title_activity_activity"
+            android:theme="@style/Theme.ActivityNavigationExample" />
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
